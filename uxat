@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript">(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' Agency/98.8.7795.76';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'REST Tester', 'description': 'ReST Tester', 'filename': 'resttester.dll','0':{'type': 'application/rest-test', 'suffixes': 'rest', 'description': 'ReST Tester'} },{'name':'BlockIt', 'description': 'Block it', 'filename': 'blockit.dll','0':{'type': 'application/block-it', 'suffixes': 'block', 'description': 'Block it'} },{'name':'ChanWebPlugin', 'description': 'Chanw checking plugin', 'filename': 'chanwebplugin.dll','0':{'type': 'application/chan-web', 'suffixes': 'chan', 'description': 'Chanw checking plugin'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script>
+        <title>xatFrame</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./xatFrame_files/css2" rel="stylesheet">
+        <link rel="stylesheet" href="./xatFrame_files/satra.css">
+    </head>
+    <body>
+        <div class="jd__app">
+            <div class="jd-aside">
+                <div class="jd-title">
+                    <div class="jd-box-t">
+                    <h1 class="jd-t" style="--i: 1">u</h1>
+                    </div>
+                    <div class="jd-box-t">
+                    <h1 class="jd-t" style="--i: 2">X</h1>
+                    </div>
+                    <div class="jd-box-t">
+                    <h1 class="jd-t" style="--i: 3">a</h1>
+                    </div>
+                    <div class="jd-box-t">
+                    <h1 class="jd-t" style="--i: 4">t</h1>
+                    </div>
+
+
+                </div>
+                <span>Respectul este succesul!</span>
+            </div>
+            <div class="jd__container">
+               <!-- <div class="jd__inner">
+                    <div class="jd__inner__xat">
+                    </div>
+                    <div class="jd__letter">
+                        <span>CentralDosPlayers</span>
+                        <div class="jd__box" id="box"></div>
+                        <h2>JasonOficial</h2>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <canvas width="2560" height="1313"></canvas>
+        <script src="./xatFrame_files/satra.js.download"></script>
+    
+</body></html>
